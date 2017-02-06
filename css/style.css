@@ -1,0 +1,434 @@
+/*
+Template: Always
+Author: GSRthemes9
+Version: 1.0
+Design and Developed by: GSRthemes9
+*/
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+	2. Header / #header
+		2.1. Navigation / #navbar
+	3. Content / #content
+		3.1. Left column / #leftcolumn
+		3.2. Right column / #rightcolumn
+		3.3. Sidebar / #sidebar
+			3.3.1. RSS / #rss
+			3.3.2. Search / #search
+			3.3.3. Boxes / .box
+			3.3.4. Sideblog / #sideblog
+			3.3.5. Advertisements / .ads
+	4. Footer / #footer
+-------------------------------------------------------------------*/
+
+/* =========== tld and search input ============= */
+
+ul.tld-list{
+	width:100%;
+	padding:0px;
+	margin:0px;
+	}	
+	
+.tld-list li{
+	text-align:left;
+	color:#fff;
+	padding: 0 20px;
+	margin:0px;
+	display: inline;
+	float:left;
+	border-right:1px solid rgba(255, 255, 255, 0.3);
+	}
+.tld-list li:last-child{
+	border-right:none;
+	}
+.tld-list li span{
+	display: block;
+	font-size:26px;
+	padding-bottom:5px;
+	font-weight:700;
+	}
+.tld-list li span.price{
+	font-size:18px;
+	font-weight:normal;
+	}
+
+.tld-list.dark li{
+	text-align:left;
+	color:#242424;
+	padding: 0 20px;
+	margin:0px;
+	display: inline;
+	float:left;
+	border-right:1px solid rgba(255, 255, 255, 0.8);
+	}
+.tld-list.dark li.title{
+	padding: 20px 10px 0 0;
+	}
+	
+/*=============== Columns without padding ============= */
+.no-gutter > [class*='col-'] {
+padding-right:0;
+padding-left:0;
+}
+
+
+/*.master-slider.margintop {
+	float: left;
+	width: 100%;
+	position: relative;
+}*/
+
+/* ------------------------------ */	
+/*         Feature Box1           */ 
+/* ------------------------------ */
+
+.feature-box-1-contant1{
+	position:relative;
+	width:84%;
+	top:50px;
+	padding: 65px 15.5% 67px 20.5%;
+	background-color:#fff;
+	z-index:3;
+	margin-left: 16%;
+}
+.feature-box-1-contant2{
+	position:relative;
+	width:83%;
+	padding: 120px 20% 75px 16%;
+	background:#f6045d url(../images/bg-texture2.png) repeat left top;
+}
+.img-box1{
+	position: absolute;
+	width:470px;
+	height:300px;
+	padding:0px;
+	left:-24.1%;
+	top:-30px;
+	z-index:2;
+}
+.img-box2{
+	position: absolute;
+	width:470px;
+	height:300px;
+	padding:0px;
+	right:-24.3%;
+	top:120px;
+	z-index:4;
+}
+
+/* ------------------------------ */	
+/*         Feature Box2          */ 
+/* ------------------------------ */
+
+.feature-box-2{
+	width:100%;
+	text-align:left;
+}
+.feature-box-2 .contant{
+	padding:54px 70px 53px 70px;
+	background-color:#ff005e;
+}
+.feature-box-2 .contant2{
+	padding:59px 70px;
+	background-color:#454545;
+}
+
+
+/* ------------------------------ */	
+/*         Feature Box3       */ 
+/* ------------------------------ */
+
+.location-area {
+	padding: 0px;
+}
+.location-area .col-md-5 {
+	width: 46%;
+}
+.location-area .col-md-2 {
+	width: 8%;
+}
+.location-area .locamap {
+	width: 100%;
+	height: 350px;
+}
+.location-area .contant-vart{
+	font-size: 30px;
+	color: #ccc;
+	text-transform: uppercase;
+	font-weight: 800;
+	line-height: 35px;
+	width:10px;
+    word-wrap: break-word;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+/* ------------------------------ */	
+/*         Feature Box4           */ 
+/* ------------------------------ */
+
+.contant-box{
+	width:100%;
+	background-color:#ff005e;
+	padding:50px 50px 134px 60px;;
+}
+.contant-box .left{
+	width:40%;
+	float:left;
+	font-weight:bold;
+	font-size:18px;
+	color:#fff;
+	padding-top:15px;
+	padding-right:50px;
+}
+.contant-box .right{
+	width:60%;
+	float:right;
+	background-image:url(../images/arrow-vart.png);
+	background-repeat:no-repeat;
+	background-position:left top;
+	padding-left:40px;
+}
+
+/* ------------------------------ */	
+/*         Feature Box5           */ 
+/* ------------------------------ */
+.feature-box-5{
+	width:100%;
+	text-align:left;
+}
+.feature-box-5 .contant{
+	padding:70px 70px 111px 70px;
+}
+.feature-box-5 .img1{
+	background-repeat:no-repeat;
+	background-position:center top;
+	margin-top:150px;
+	
+}
+.feature-box-5 .img2{
+	background-image:url(http://placehold.it/585x400);
+	background-repeat:no-repeat;
+	background-position:center top;
+	padding:20px 0px 0px  0px;
+	background-size: 100%;
+	background-color: #272727;
+}
+.feature-box-5 .contant2{
+	padding:60px 70px;
+	background-color:#ff005e;
+}
+.feature-box-5 .contant3{
+	padding:45px 70px 46px 70px;
+	background-color:#fff;
+}
+
+
+/* ------------------------------ */	
+/*         Feature Box6           */ 
+/* ------------------------------ */
+
+.feature-box-6 {
+	float: left;
+	width: 100%;
+	padding: 35px 0px 50px 0px;
+	text-align: center;
+}
+.feature-box-6 .framebox{
+	width:50%;
+	margin: 0 auto;
+	background-color:#ff005e;
+	padding:20px 20px 60px 20px;
+}
+.feature-box-6 .framebox02{
+	background-color:#e50054;
+	padding:50px 50px 40px 50px;
+	width:100%;
+	float:left;
+}
+.bookatable-form {
+	width: 100%;
+}
+.feature-box-6 .box1 {
+	width:100%;
+	float:left;
+}
+.bookatable-form label {
+	float: left;
+	width: 100%;
+}
+.bookatable-form .input {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #727272;
+	font-weight:normal;
+	float: left;
+	width: 100%;
+	text-align: left;
+	background: #fff;
+	border: 2px solid #eee;
+	padding: 12px 16px;
+	margin-bottom: 15px;
+}
+.bookatable-form textarea {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #727272;
+	font-weight:normal;
+	float: left;
+	width: 100%;
+	height: 230px;
+	text-align: left;
+	background: #fff;
+	border: 2px solid #eee;
+	padding: 12px 16px;
+}
+.button.send {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #272727;
+	font-weight:bold;
+	padding: 12px 37px;
+	background-color: #fff;
+	text-transform: uppercase;
+	transition: all 0.3s ease;
+	border:3px solid #d1004d;
+	border-radius:30px;
+}
+.button.send:hover {
+	color: #fff;
+	background-color: #b4436b;
+}
+
+
+#form_status span{
+	color: #272727;
+	font-size: 14px;
+	font-weight: normal;
+	background: #e8e62f;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	padding: 10px 0px;
+	margin-bottom: 18px;
+}
+#form_status span.loading{
+	color: #333;
+	background: #eee;
+	border-radius: 3px;
+	padding: 18px 0px;
+} 
+#form_status span.notice{
+	color: yellow;
+}
+#form_status .success{
+	color: #fff;
+	text-align: center;
+	background: #a8d057;
+	padding: 30px 0px;
+}
+#form_status .success i{
+	color: #fff;
+	font-size: 45px;
+	margin-bottom: 14px;
+}
+#form_status .success h3{
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+
+
+.feature-box-6 h1{
+	font-family: 'Josefin Sans', sans-serif;
+	color: #272727;
+	text-align:center;
+	margin-bottom:10px;
+	font-weight:bold;
+	text-transform:uppercase;
+	display:block;
+}
+
+/* ------------------------------ */	
+/*         Feature Box7           */ 
+/* ------------------------------ */
+
+.feature-box-7 .contentbox {
+	float: left;
+	width: 100%;
+	text-align:center;
+}
+.feature-box-7 .contentbox i {
+	font-size: 21px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+.gift-logos {
+	float: left;
+	width: 20%;
+	padding: 40px 0px 20px 0px;
+	height: auto;
+	text-align: center;
+	background: url(../images/bag-graph.png) no-repeat center top;
+}
+.gift-logos img {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.opac-button {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	background: rgba(255, 255, 255, 0.18);
+	padding: 11px 30px;
+	border-radius: 35px;
+}
+.opac-button:hover {
+	color: #272727;
+	background: rgba(255, 255, 255, 1);
+}
+
+.lgarrowbut {
+	color: #fff;
+	font-weight: 700;
+}
+.lgarrowbut i {
+	padding-right: 10px;
+	transition: all 0.3s ease;
+}
+.lgarrowbut:hover {
+	color: #fff;
+}
+.lgarrowbut:hover i {
+	padding-left: 10px;
+	padding-right: 0px;
+}
+
+
+.section-graph-bg {
+	background: url(../images/bg-texture1.png) repeat-x left 203px;
+}
+
+
+/* scroll up */
+.scrollup{
+    width:40px;
+    height:40px;
+    opacity:1;
+    position:fixed;
+    bottom:22px;
+    right:20px;
+    display:none;
+    text-indent:-9999px;
+    background: url(../images/scroll-top-arrow.png) no-repeat left top;
+	z-index: 9001;
+}
+
+
