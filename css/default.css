@@ -2190,7 +2190,7 @@ padding-left:0;
 	background-repeat:no-repeat;
 }
 .section-bgimg2{
-	background-image: url(http://placehold.it/1920x900);
+	background-image: url(../images/1920x900/PlanoFundoSite.png);
 	background-position:center -50px;
 	background-repeat:no-repeat;
 	background-size: 100%;
@@ -2206,7 +2206,7 @@ padding-left:0;
 	margin: 0px;
 	text-align: left;
 	color:#fff;
-	background: url(http://placehold.it/1920x900);
+	background: url(../images/1920x900/PlanoFundoSite.png);
 	background-attachment: fixed;
 	background-origin: initial;
 	background-clip: initial;
@@ -2224,7 +2224,7 @@ padding-left:0;
 	padding: 180px 0px 135px 0px;
 	text-align: center;
 	color:#fff;
-	background: url(http://placehold.it/1920x900);
+	background: url(../images/1920x900/PlanoFundoSite.png);
 	background-attachment: fixed;
 	background-origin: initial;
 	background-clip: initial;
