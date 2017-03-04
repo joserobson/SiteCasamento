@@ -21,15 +21,15 @@
 	
 	ob_start();
 	?>
-		Hi GSRthemes9!<br /><br />
-		<?php echo ucfirst( $name ); ?>  has sent you a message via contact form on your website!
+		Olá Camila!<br /><br />
+		<?php echo ucfirst( $name ); ?>  Você recebeu um email de contato de RSVP de Ana Cristina e Robson
 		<br /><br />
 		
-		Name: <?php echo ucfirst( $name ); ?><br />
+		Nome: <?php echo ucfirst( $name ); ?><br />
 		Email: <?php echo $from; ?><br />
-		Events: <?php echo $subject; ?><br />
-        Guests: <?php echo $phone; ?><br />
-		Message: <br /><br />
+		Eventos: <?php echo $subject; ?><br />
+        Convidados: <?php echo $phone; ?><br />
+		Messagem: <br /><br />
 		<?php echo $message; ?>
 		<br />
 		<br />
@@ -40,7 +40,7 @@
 	
 	$to = 'robsbq@gmail.com';
 
-	$s = mail($to,$subject,$body,$headers,"-t -i -f $from");
+	$s = mail($to,$subject,$body,$headers);
 
 	if( $s == 1 ){
 		echo '<div class="success"><i class="fa fa-check-circle"></i><h3>Thank You!</h3>Your message has been sent successfully.</div>';
