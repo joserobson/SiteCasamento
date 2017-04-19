@@ -52,7 +52,7 @@
 
 	// date count down
 	$('#example').countdown({
-		date: '05/28/2017 22:59:59',
+		date: '05/27/2017 20:15:59',
 		offset: -8,
 		day: 'Day',
 		days: 'Days'
