@@ -2190,7 +2190,7 @@ padding-left:0;
 	background-repeat:no-repeat;
 }
 .section-bgimg2{
-	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,1)), url(../images/1920x900/FundoFinalSite.png);
+	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,1)), url(../images/1920x900/FundoFinalSite.jpg);
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size: 100%;
@@ -2206,7 +2206,7 @@ padding-left:0;
 	margin: 0px;
 	text-align: left;
 	color:#fff;
-	background: url(../images/1920x900/PlanoFundoSite2.png);
+	background: url(../images/1920x900/PlanoFundoSite2.jpg);
 	background-attachment: fixed;
 	background-origin: initial;
 	background-clip: initial;
@@ -2224,7 +2224,7 @@ padding-left:0;
 	padding: 180px 0px 135px 0px;
 	text-align: center;
 	color:#fff;
-	background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.7)), url(../images/1920x900/PlanoFundoSite.png);
+	background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.7)), url(../images/1920x900/PlanoFundoSite.jpg);
 	background-attachment: fixed;
 	background-origin: initial;
 	background-clip: initial;
