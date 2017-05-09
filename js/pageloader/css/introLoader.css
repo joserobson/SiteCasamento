@@ -25,6 +25,12 @@
 }
 .introLoading {
   background-color: #fff;
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,1)), url(../../../images/aguarde.jpg);
+  background-position:center;
+	background-repeat:no-repeat;
+	background-size: 100%;
+	padding-top: 160px;
+	padding-bottom: 140px;
 }
 .absolute.introLoader {
   position: absolute;
